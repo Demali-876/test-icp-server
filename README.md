@@ -6,22 +6,22 @@ A minimal x402-protected Express server that accepts ICP micropayments using [@c
 
 Clone the repo and install dependencies:
 
-\```bash
+```bash
 npm install
-\```
+```
 
 Create a `.env` file:
 
-\```
+```
 FACILITATOR_URL=https://facilitator.canister.software
 PAYTO_PRINCIPAL=your-icp-principal-here
-\```
+```
 
 ## Run
 
-\```bash
-npx ts-node server.ts
-\```
+```bash
+npm run start
+```
 
 ## Routes
 
